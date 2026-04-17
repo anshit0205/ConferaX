@@ -428,7 +428,7 @@ st.markdown("""
     font-size: 38px;
     font-weight: 800;
     letter-spacing: -1.5px;
-    color: #111827;
+    color: var(--text-color, #2D3748);
     margin-bottom: 2px;
 }
 .conf-title span { 
@@ -438,7 +438,8 @@ st.markdown("""
 }
 .conf-sub {
     font-size: 14px;
-    color: #6B7280;
+    color: var(--text-color, #718096);
+    opacity: 0.75;
     font-family: 'Outfit', sans-serif;
     font-weight: 500;
     letter-spacing: 0.5px;
