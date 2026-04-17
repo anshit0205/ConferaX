@@ -140,7 +140,7 @@ and benchmark scrutiny. Find what will break before the organizer signs anything
 For every flaw: PROBLEM → ROOT CAUSE → SPECIFIC FIX (not generic, not vague).
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§A  EVENT CONTEXT (know this before challenging)
+  EVENT CONTEXT (know this before challenging)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Category:      {category}
 Geography:     {geography}
@@ -151,7 +151,7 @@ Ticketing:     {ticketing}
 Objective:     {objective}
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§B  PREDICTION ENGINE CHALLENGE (challenge this first)
+  PREDICTION ENGINE CHALLENGE (challenge this first)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 PREDICTION ENGINE PASS 2 OUTPUT:
 {pass2_summary}
@@ -195,7 +195,7 @@ Challenge the engine directly on these 5 points:
    Does the engine capture this cascading failure mode? If not, what is the real P10?
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§C  EVENT-ADAPTIVE CHALLENGE (based on ticketing: {ticketing})
+  EVENT-ADAPTIVE CHALLENGE (based on ticketing: {ticketing})
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Apply the challenge set matching the ticketing mode:
  
@@ -224,7 +224,7 @@ IF HYBRID EVENT:
     Is the event content designed for both simultaneously or just one?
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§D  STRATEGY PROFILE CHALLENGE
+  STRATEGY PROFILE CHALLENGE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 INPUT: {strategy_profile}
  
@@ -246,7 +246,7 @@ CHALLENGE 3 — OBJECTIVE-REVENUE TENSION:
   If objective is "revenue" but pricing is kept low for access, what covers the budget?
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§E  SPONSOR STRATEGY CHALLENGE
+ SPONSOR STRATEGY CHALLENGE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 INPUT: {sponsor_output}
  
@@ -275,7 +275,7 @@ CHALLENGE 4 — FALLBACK SCENARIO MATH:
   Is that achievable from Tier 2 + Tier 3 alone?
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§F  EXHIBITOR STRATEGY CHALLENGE
+  EXHIBITOR STRATEGY CHALLENGE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 INPUT: {exhibitor_output}
  
@@ -296,7 +296,7 @@ CHALLENGE 3 — EXHIBITOR SOURCE VALIDATION:
   that have exhibited at comparable events?
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§G  SPEAKER STRATEGY CHALLENGE 
+  SPEAKER STRATEGY CHALLENGE 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 INPUT: {speaker_output}
  
@@ -490,7 +490,7 @@ The Decision Layer depends on your structured priority list to order its decisio
 Be honest. Be specific. Be actionable.
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§A  EVENT CONTEXT
+  EVENT CONTEXT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Category:   {category} | Geography: {geography} | Date: {date}
 Budget:     {budget} | Ticketing: {ticketing}
@@ -503,7 +503,7 @@ Persona:    {persona} | Objective: {objective}
 Did agents use these reconciled numbers correctly?
 Did any agent output contradict Pass 2 without citing evidence?
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§B  SECTION 1 — AGENT SCORECARD TABLE
+ SECTION 1 — AGENT SCORECARD TABLE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Rate every agent on 4 dimensions (0-10 each). Show the table.
  
@@ -534,7 +534,7 @@ Write an improvement prescription:
   Expected improvement: [what would change in the output]
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§C  SECTION 2 — DATA QUALITY AUDIT (22 Tavily searches)
+  SECTION 2 — DATA QUALITY AUDIT (22 Tavily searches)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Rate each search category: HIGH / MEDIUM / LOW quality data returned.
  
@@ -569,7 +569,7 @@ TOP 3 DATA GAPS:
   Gap 3: [search] returned LOW quality → [specific agent claim at risk] → [what to verify manually]
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§D  SECTION 3 — CONFIDENCE CALIBRATION CHECK
+  SECTION 3 — CONFIDENCE CALIBRATION CHECK
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Standard: HIGH = 3+ Tavily sources confirmed. MEDIUM = 1-2 confirmed. LOW = fully inferred.
  
@@ -588,7 +588,7 @@ CORRECTLY CALIBRATED CLAIMS (examples of good practice):
   [List 2-3 claims that were correctly labeled — reinforce what worked]
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§E  SECTION 4 — DA FIX EVALUATION
+  SECTION 4 — DA FIX EVALUATION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 DEVIL'S ADVOCATE OUTPUT:
 {devils_advocate_output[:3000]}
@@ -608,7 +608,7 @@ DA OVERALL ASSESSMENT:
   [Name the missed risk and add it to the must-fix list]
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§F  SECTION 5 — EVENT-ADAPTIVE MISSED ITEMS
+  SECTION 5 — EVENT-ADAPTIVE MISSED ITEMS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 This is NOT a generic list. Every item must be specific to THIS event:
 {category} summit | {geography} | {date} | {persona} | {budget}
@@ -664,7 +664,7 @@ MISSED ITEMS (minimum 8, all event-specific):
 [Add more missed items specific to this event's category/geography/date]
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§G  SECTION 6 — PIPELINE IMPROVEMENT PRESCRIPTIONS
+  SECTION 6 — PIPELINE IMPROVEMENT PRESCRIPTIONS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Minimum 5 specific prescriptions for the NEXT pipeline run.
 Each must name the specific file, agent, or task to change.
@@ -680,7 +680,7 @@ HIGHEST PRIORITY PRESCRIPTION:
   How: [exact implementation]
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§H  SECTION 7 — STRUCTURED PRIORITY LIST FOR DECISION LAYER
+ SECTION 7 — STRUCTURED PRIORITY LIST FOR DECISION LAYER
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 THIS IS YOUR MOST IMPORTANT OUTPUT.
 The Decision Layer uses this list to order its 10 decisions.
@@ -761,7 +761,7 @@ The Self-Reflection agent spent significant compute identifying which decisions
 are most urgent. Respect that ordering unless you have a specific reason to disagree.
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§A  AUTHORITATIVE INPUTS — READ ALL BEFORE DECIDING
+ AUTHORITATIVE INPUTS — READ ALL BEFORE DECIDING
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  
 EVENT: {category} | {geography} | {date} | {audience} people | {budget}
@@ -790,7 +790,7 @@ GTM:        {all_outputs.get('gtm_output', '')[:800]}
 Ops:        {all_outputs.get('ops_output', '')[:800]}
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§B  CONFIDENCE SCORE FORMULA (use for every decision)
+  CONFIDENCE SCORE FORMULA (use for every decision)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Confidence = (Evidence Quality × 0.4) + (Feasibility × 0.3) +
              ((100 - DA Challenge Severity) × 0.2) + (Data Source Quality × 0.1)
@@ -804,7 +804,7 @@ Where:
 Show the arithmetic for every decision.
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§C  DECISION BLOCK FORMAT (use for all 10 decisions)
+  DECISION BLOCK FORMAT (use for all 10 decisions)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  
 ---
@@ -841,7 +841,7 @@ whether the decision mitigates it or accepts the risk]
 ---
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§D  THE 10 DECISIONS
+  THE 10 DECISIONS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Use the Self-Reflection priority list to determine order.
 Apply the decision block format above to each.
@@ -930,7 +930,7 @@ DECISION 10: GO / NO-GO CRITERIA
   At what point does scope reduction make this a different event entirely?
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§E  7-DAY ACTION PLAN (with outreach email integration)
+  7-DAY ACTION PLAN (with outreach email integration)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Every day must reference specific outputs from the pipeline.
 No generic "contact sponsors" — name the email draft, the company, the contact.
