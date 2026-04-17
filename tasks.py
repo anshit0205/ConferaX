@@ -504,7 +504,7 @@ For an event on {date_range}, produce a week-by-week outreach calendar:
 {strategy_profile}
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§J  TAVILY WEB CONTEXT (extract ALL company names from here first)
+ TAVILY WEB CONTEXT (extract ALL company names from here first)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 {web_context}
  
@@ -705,7 +705,7 @@ using archetype-specific sources and archetype-specific scoring.
 Non-academic speakers are first-class citizens in this pipeline.
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§A  EVENT CONTEXT
+ EVENT CONTEXT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Category:         {category}
 Geography:        {geography}
@@ -716,7 +716,7 @@ Budget:           {budget}
 Speaker Priority: {speaker_prio}
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§B  STEP 0 — ARCHETYPE DETECTION (do this before anything else)
+  STEP 0 — ARCHETYPE DETECTION (do this before anything else)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Based on: Category [{category}] + Persona [{persona}] + Priority [{speaker_prio}]
  
@@ -730,7 +730,7 @@ Do NOT apply the Academic formula to Practitioners.
 Do NOT apply the Artist formula to Academics.
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§C  STEP 1 — EXTRACT FROM TAVILY WEB CONTEXT FIRST
+ STEP 1 — EXTRACT FROM TAVILY WEB CONTEXT FIRST
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Read ALL web context. Extract every person name found near:
   Academic signals:     "researcher, author, cited, h-index, arXiv, paper, professor"
@@ -746,7 +746,7 @@ LIST ALL EXTRACTED NAMES:
 Label additions from knowledge: [INFERRED]
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§D  STEP 2 — VETTING SOURCES PER ARCHETYPE
+  STEP 2 — VETTING SOURCES PER ARCHETYPE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Apply ONLY the sources relevant to each candidate's archetype.
  
@@ -835,7 +835,7 @@ Source 6 — Booking platform:
   Find: booking presence, past bookings, rider info
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§E  STEP 3 — INFLUENCE SCORE (archetype-branching formula)
+ STEP 3 — INFLUENCE SCORE (archetype-branching formula)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ALWAYS state archetype FIRST, then apply that archetype's formula.
 Never apply the wrong formula. Never penalize for N/A dimensions.
@@ -888,7 +888,7 @@ Never apply the wrong formula. Never penalize for N/A dimensions.
   ARTIST INFLUENCE SCORE = sum (max 100)
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§F  STEP 4 — FULL CANDIDATE BLOCK (every speaker, every slot)
+ STEP 4 — FULL CANDIDATE BLOCK (every speaker, every slot)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 For every critical slot: TOP CHOICE + 2 ALTERNATIVES + 1 BACKUP.
 Use this block template — skip sections that are N/A for the archetype:
@@ -968,7 +968,7 @@ BACKUP:        [Name] | Archetype: [X] | Influence: [X]/100 | Availability: HIGH
 ---
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§G  STEP 5 — AGENDA NARRATIVE ARC
+ STEP 5 — AGENDA NARRATIVE ARC
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Design agenda for {duration} as a narrative arc.
  
@@ -984,7 +984,7 @@ SLOT TIMING RULES:
   Artist: 20–30 min | Break: 15 min | Lunch: 60–75 min
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§H  STEP 6 — CONFLICT DETECTION (all 5 checks)
+ STEP 6 — CONFLICT DETECTION (all 5 checks)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 CHECK 1 — Speaker double-booking: same speaker in 2 simultaneous slots?
 CHECK 2 — Org concentration: 2 consecutive keynotes from same company?
@@ -995,7 +995,7 @@ CHECK 5 — Energy management: high-energy format at post-lunch slot?
 Result per check: ✅ PASS or ⚠️ CONFLICT FOUND — [detail + fix]
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§I  STEP 7 — FINAL TABLES
+ STEP 7 — FINAL TABLES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  
 AGENDA-SPEAKER MAPPING TABLE (conflict-free):
@@ -1013,7 +1013,7 @@ INFLUENCE LEADERBOARD (top 10 candidates ranked by influence score):
 |------|------|-----------|-------|--------------|-------------|
  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-§J  STRATEGY PROFILE AND WEB CONTEXT
+ STRATEGY PROFILE AND WEB CONTEXT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 CONFERENCE STRATEGY PROFILE:
 {strategy_profile}
@@ -2276,7 +2276,7 @@ Present the 4 fallback scenarios as a clean table:
   | Cluster | Booth Type | Est. Booths | Fee per Booth | Total Revenue |
   |---------|------------|-------------|---------------|---------------|
 For each cluster: evidence, fee rationale.
-Add: ⚡ WHY THIS CLUSTER FOR THIS AUDIENCE: [1-2 sentences]
+Add:  WHY THIS CLUSTER FOR THIS AUDIENCE: [1-2 sentences]
 Expo floor layout rationale.
  
 ## SPEAKER AND AGENDA PLAN
